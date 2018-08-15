@@ -1,13 +1,9 @@
-<html>
-    <head>
-        <title>
-            Robert Olive - Web Developer
-        </title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-        <link rel='stylesheet' href="assets/style.css">
-    </head>
+import React, { Component } from 'react';
 
-    <body>
+class App extends Component {
+  render() {
+    return (
+      <div className="parent">
         <header>
             <div class = 'hero-image'>
                 <div class = 'hero-text'>
@@ -28,6 +24,12 @@
                         Aim to utilize varied background along with newly acquired skills to become a capable web developer with an emphasis on quality.
                 </div>
             </div>
-        </div>
-    </body>
-</html>
+            <div class = 'row'>
+            </div>
+            </div>
+      </div>
+    );
+  }
+}
+
+export default App;

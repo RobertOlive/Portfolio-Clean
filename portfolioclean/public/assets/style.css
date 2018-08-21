@@ -29,19 +29,70 @@ body, html {
     color: white;
 }
 
-@keyframes headerappear {
-    from {visibility: hidden;}
-    to {visibility: visible;}
+/* @keyframes headerappear {
+    from {top: -200;}
+    to {top: 0;}
+} */
+
+.row {
+    position: relative;
+    padding: 2.5%;
+}
+
+.sectionHead {
+    position: absolute;
+}
+
+.about, .portfolio {
+    height: 100%;
+    width: auto;
+}
+
+.portfolio {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.col-sm {
+    margin: auto;
+    width: auto;
+}
+
+.profilepic {
+    height: auto;
+    width: 80%;
+    display: block;
+    margin: auto;
 }
 
 .header {
     position: fixed;
     z-index: 2;
-    top: 0;
+    top: -200;
     left: 0;
     width: 100%;
     height: 200px;
-    visibility: hidden;
-    animation-name: headerappear;
-    animation-duration: 2s;
+    /* animation-name: headerappear;
+    animation-duration: 2s; */
+}
+
+.work {
+    margin: auto;
+    margin-left: 1%;
+    margin-left: 1%;
+    position: relative;
+    padding: 0;
+}
+
+.work h3 {
+    position: absolute;
+    z-index: 3;
+    background: white;
+    bottom: 10%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.auth-image {
+    width: 100%;
 }

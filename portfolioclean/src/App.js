@@ -71,19 +71,19 @@ class App extends Component {
             <div className="row contact">
                 <SectionHead sectionTitle="Contact" />
 
-                <div className="col-sm">
+                <div className="col-sm social">
                     <a href="mailto:robert.aaron.olive@gmail.com">
                         <img src={Email} alt="Email"/>
                     </a>
                 </div>
 
-                <div className="col-sm">
+                <div className="col-sm social">
                     <a href="https://github.com/RobertOlive">
                         <img src={Github} alt="Github"/>
                     </a>
                 </div>
 
-                <div className="col-sm">
+                <div className="col-sm social">
                     <a href="https://www.linkedin.com/in/robert-olive/">
                         <img src={Linkedin} alt ="LinkedIn"/>
                     </a>

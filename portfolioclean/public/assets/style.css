@@ -1,8 +1,25 @@
-body, html {
-    height: 100%;
-    background: linear-gradient(to right, #f0bba3, #284356)
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
 }
 
+body, html {
+    height: 100%;
+    background: linear-gradient(to right, #f0bba3, #284356);
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+h1 {
+    font-size: 45px;
+}
 
 /* The hero image */
 .hero-image {
@@ -71,13 +88,17 @@ body, html {
         -10px 0px 25px rgba(255, 255, 255, 0.1);
 }
 
+.abouttext {
+    text-align: center;
+}
+
 .col-sm {
     margin: auto;
     width: auto;
 }
 
 .profilepic {
-    border-radius: 30px;
+    border-radius: 50%;
     height: auto;
     width: 80%;
     display: block;

@@ -31,10 +31,18 @@ class App extends Component {
                 </div>
 
                 <div className = 'col-sm abouttext'>
-                        Former construction surveyor with a newfound focus on web development. 
-                        Strong experience with building client relationships, supervising a small team, and executing a plan effectively while maintaining the ability to adapt. 
-                        Proficient in web development gained in a boot camp environment, including HTML, CSS, JavaScript, JQuery, Node.js, and MySQL. 
-                        Aim to utilize varied background along with newly acquired skills to become a capable web developer with an emphasis on quality.
+                    My name is Rob Olive and I'm a full-stack web developer as well as all-around geek. I gained my Web Development experience through the University of Central Florida
+                    Coding Bootcamp and am transitioning away from a career in construction surveying and civil engineering. I love learning new technologies and concepts and applying
+                    them to practical and functional websites.
+                    <br></br>
+                    <br></br>
+                    In my free time I enjoy traveling, catching up on videogames (I'm always behind), and just generally gaining new experiences. In the past few years I've lived in 3
+                    states, gone skydiving, left the country, made friends everywhere I've gone.
+                    <br></br>
+                    <br></br>
+                    My Web Development skill set includes HTML, CSS, JavaScript, Node.js, React.js, MySQL, MongoDB, and Express. On top of those skills, in the past few years I have led teams,
+                    engaged heavily with contractors as well as clients, and delivered a get-the-job-done mentality in everything I've done. I'm always learning, advancing, and changing
+                    perspectives.
                 </div>
             </div>
 

@@ -20,12 +20,11 @@ class App extends Component {
             <div className = 'hero-text'>
                 <h1>Robert Olive</h1>
                 <p>Web Developer</p>
-                <button className = "contact-button">Get in touch</button>
             </div>
         </div>
 
         <div className = 'container-fluid main'>
-            <div className = 'row about'>
+            <div className = 'row about justify-content-sm-center'>
                 <SectionHead sectionTitle="About" />
                 <div className = 'col-sm profile-image'>
                     <img className='profilepic' src={Profile} alt="Profile"  />
@@ -39,7 +38,7 @@ class App extends Component {
                 </div>
             </div>
 
-            <div className = 'row portfolio'>
+            <div className = 'row portfolio justify-content-sm-center'>
                 <SectionHead sectionTitle="Portfolio" />
 
                 <div className ="col-sm work">
@@ -68,29 +67,33 @@ class App extends Component {
 
             </div>
 
-            <div className="row contact">
+            <div className="row contact justify-content-sm-center">
                 <SectionHead sectionTitle="Contact" />
 
-                <div className="col-sm social">
+                <div className="col-sm-auto social">
                     <a href="mailto:robert.aaron.olive@gmail.com">
                         <img src={Email} alt="Email"/>
                     </a>
                 </div>
 
-                <div className="col-sm social">
+                <div className="col-sm-auto social">
                     <a href="https://github.com/RobertOlive">
                         <img src={Github} alt="Github"/>
                     </a>
                 </div>
 
-                <div className="col-sm social">
+                <div className="col-sm-auto social">
                     <a href="https://www.linkedin.com/in/robert-olive/">
                         <img src={Linkedin} alt ="LinkedIn"/>
                     </a>
                 </div>
             </div>
         </div>
-        
+
+        <div className="footer">
+        Copyright Robert Olive 2018
+        </div>
+
       </div>
     );
   }

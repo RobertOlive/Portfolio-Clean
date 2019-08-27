@@ -3,8 +3,9 @@ import Navbtn from "./Navbtn";
 
 class Header extends Component {
     render () {
+        
         return (
-            <div className="header container-fluid">
+            <div className="header container-fluid" id="header">
                 <div className="row">
                     <Navbtn btntype="Home" />
                     <Navbtn btntype="About" />

@@ -10,7 +10,41 @@ import Github from "./components/images/github.png";
 import Linkedin from "./components/images/linkedin.png";
 
 class App extends Component {
+    
   render() {
+    let prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+      let currentScrollPos = window.pageYOffset;
+    //   on scroll down
+      if (prevScrollpos > currentScrollPos && document.getElementById("header").style.top >=0) {
+          console.log("scroll down")
+          var pos = -100;
+          var id = setInterval(frame2, 5);
+          function frame2() {
+              if (pos === 0) {
+                  clearInterval(id);
+                } else {
+                    pos++; 
+                    document.getElementById("header").style.top = pos;
+                }
+            }
+    // on scroll up
+        } else if (prevScrollpos <= currentScrollPos && document.getElementById("header").style.top < 0) {
+            console.log("scroll up")
+            var pos = 0;
+            var id = setInterval(frame1, 5);
+            function frame1() {
+              if (pos === -100) {
+                clearInterval(id);
+              } else {
+                pos--; 
+                document.getElementById("header").style.top = pos;
+              }
+            }
+      }
+      prevScrollpos = currentScrollPos;
+    }
+
     return (
       <div className="parent">
 

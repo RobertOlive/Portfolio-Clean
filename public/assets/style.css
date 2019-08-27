@@ -114,6 +114,7 @@ h1 {
     height: 75px;
     background-color: #28435681;
     box-shadow: 0px 10px 15px #28435681;
+    transition: top 0.3s;
 }
 
 .work {

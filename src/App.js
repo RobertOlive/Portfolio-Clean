@@ -37,13 +37,15 @@ class App extends Component {
         </div>
 
         <div className = 'container-fluid main'>
-            <div className = 'row about justify-content-sm-center'>
-                <SectionHead sectionTitle="About" />
-                <div className = 'col-sm profile-image'>
+
+
+            <div className = "row about justify-content-sm-center">
+                <SectionHead className="col-12" sectionTitle="About" />
+                <div className = 'col-sm-12 col-md-6 profile-image'>
                     <img className='profilepic' src={Profile} alt="Profile"  />
                 </div>
 
-                <div className = 'col-sm abouttext'>
+                <div className = 'col-sm-12 col-md-6 abouttext'>
                     My name is Rob Olive and I'm a full-stack web developer as well as all-around geek. I gained my Web Development experience through the University of Central Florida
                     Coding Bootcamp and am transitioning away from a career in construction surveying and civil engineering. I love learning new technologies and concepts and applying
                     them to practical and functional websites.
@@ -59,10 +61,11 @@ class App extends Component {
                 </div>
             </div>
 
+            
             <div className = 'row portfolio justify-content-sm-center'>
-                <SectionHead sectionTitle="Portfolio" />
+                <SectionHead sectionTitle="Portfolio" className="col-12" />
 
-                <div className ="col-sm work">
+                <div className ="col-8 col-md-4 work">
                     <a href = "http://strukture.herokuapp.com/">
                     <img src={strukture} className ="auth-image" alt="strukture"/>
 
@@ -70,7 +73,7 @@ class App extends Component {
                     </a>
                 </div>
 
-                <div className ="col-sm work">
+                <div className ="col-8 col-md-4 work">
                     <a href = "https://robertolive.github.io/codeTutor/">
                     <img src={codeTutor} className ="auth-image" alt="codeTutor"/>
                 
@@ -78,7 +81,7 @@ class App extends Component {
                     </a>
                 </div>
 
-                <div className ="col-sm work">
+                <div className ="col-8 col-md-4 work">
                     <a href = "https://radiant-eyrie-36675.herokuapp.com/">
                     <img src={Casus} className ="auth-image" alt="Casus"/>
     

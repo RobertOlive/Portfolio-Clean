@@ -65,7 +65,7 @@ h1 {
 
 .row {
     position: relative;
-    padding: 2.5%;
+    padding: 1.5%;
 }
 
 .sectionHead {
@@ -75,7 +75,7 @@ h1 {
 
 .about, .portfolio {
     height: 100%;
-    width: auto;
+    /* width: auto; */
 }
 
 .portfolio, .abouttext {
@@ -90,11 +90,16 @@ h1 {
 
 .abouttext {
     text-align: center;
+    margin: auto;
 }
 
 .col-sm {
     margin: auto;
     width: auto;
+}
+
+.profile-image {
+    margin: auto;
 }
 
 .profilepic {
@@ -119,26 +124,29 @@ h1 {
 
 .work {
     margin: auto;
-    margin-left: 1%;
-    margin-right: 1%;
+    /* padding: 0, 5%, 5%; */
+}
+
+.work a {
     position: relative;
-    padding: 0;
 }
 
 .work h3 {
+    margin: auto;
     text-decoration: none;
     color: #f0bba3;
     text-shadow: 0px 0px 15px #f0bba3;
     position: absolute;
     z-index: 3;
     background: black;
-    bottom: 10%;
+    bottom: 0%;
     left: 0;
     width: 100%;
     text-align: center;
 }
 
 .auth-image {
+    position: relative;
     width: 100%;
     border-radius: 15px;
     box-shadow: 
@@ -147,7 +155,7 @@ h1 {
 }
 
 .contact {
-    height: 75%;
+    height: 30%;
     width: auto;
     z-index: 5;
     box-shadow: 0px 10px 15px #284356e0;

@@ -113,6 +113,8 @@ h1 {
 
 .work {
     margin: auto;
+    transition: .5s;
+
 }
 
 .work a {
@@ -128,6 +130,12 @@ h1 {
     bottom: 0%;
     width: 100%;
     text-align: center;
+}
+
+.work:hover {
+    transform: scale(1.15);
+    transition: .5s;
+    z-index: 100;
 }
 
 .auth-image {
@@ -157,10 +165,12 @@ h1 {
 
 .social a img{
     max-width: 60px;
+    transition: .5s;
 }
 
 .social a img:hover {
     max-width: 65px;
+    transition: .25s;
 }
 
 .footer {
